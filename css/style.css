@@ -1,0 +1,200 @@
+:root
+{
+    --hover-color:#f98b68;
+    --background:#2da88c;
+}
+h2{
+    color: grey;
+}
+header
+{
+    background-image: url(../images/bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+position: relative;
+}
+.navbar
+{
+    background-color: var(--background);
+}
+ul .nav-link 
+{
+    color: white;
+    font-size: 25px;
+}
+ul .nav-link:hover
+{
+    background-color: var(--hover-color);
+    color: white;
+}
+header .row 
+{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+
+}
+header .icon
+{
+    height: 150px;
+    line-height: 0px;
+    background-color: rgba(46, 168, 140, 15%);
+    background-color: hsl(166, 58%, 42% , 70%);
+    width: 18%;
+   text-align: center;
+
+}
+header .icon:hover
+{
+    background-color: hsl(14, 92%, 69% , 75%)
+}
+header .icon .pic 
+{
+    width: 100%;
+    height: 70px;
+}
+header .icon .pic img
+{
+    height: 100%;
+}
+.captionn
+{
+    font-size: 23px;
+    height: 50px;
+    color: white;
+
+}
+.more-icons .card-body h5 
+{
+    color: var(--hover-color);
+}
+/****** about ruddy**********/
+.about-rody .pic , .pic2 , .pic3
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.about-rody .pic
+{
+    background-image: url(../images/about-pic2.jpg);
+}
+.about-rody .pic2
+{
+    background-image: url(../images/about-pic1.jpg);
+    height: 300px;
+}
+.about-rody .pic3
+{
+    background-image: url(../images/about-pic3.jpg);
+    height: 300px;
+}
+
+.about-rody .content 
+{
+    background-color: var(--background);
+}
+.about-rody .content2
+{
+    background-color: var(--hover-color);
+
+}
+.about-rody p 
+{
+    font-size: 13px;
+    line-height: 22px;
+}
+/* process */
+.our-process 
+{   background-image: url(../images/process-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+   min-height: 60vh;
+}
+.our-process .pic , .pic2 , .pic3 , .pic4
+{   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 180px;
+}
+.our-process .pic
+{
+    background-image: url(../images/p-bg1.jpg);
+
+}
+.our-process .pic2
+{
+    background-image: url(../images/p-bg2.jpg);
+
+}
+.our-process .pic3
+{
+    background-image: url(../images/p-bg3.jpg);
+
+}
+.our-process .pic4
+{
+    background-image: url(../images/p-bg4.jpg);
+
+}
+
+.blog
+{
+    color: gray;
+}
+.portifoio .flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--hover-color);
+}
+.portifoio .flex .photo
+{
+    width: 33.3%;
+}
+.portifoio .flex .photo img
+{
+    width: 100%;
+}
+.portifoio-card
+{
+    background-color: var(--hover-color);
+}
+/* team */
+.team .flex , .name
+{
+    width: 70%;
+}
+/* map */
+.map
+{
+   min-height: 200px;
+}
+.map iframe
+{
+    height: 100%;
+}
+.map .site
+{
+    background-color: var(--hover-color);
+}
+.site span
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+/* footer */
+footer
+{
+    background-color: #333;
+}
